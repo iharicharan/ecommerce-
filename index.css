@@ -702,19 +702,23 @@
                                 #s3 {
                                     display: grid;
                                 }
+                                figure {
+                                    width: 340px;
+                                    height: 320px;
+                                }
+                                figure>img {
+                                    width: 340px;
+                                    height: 250px;
+                                }
                                 #txt1 {
-                                    padding: 9px;
-                                    width: 180px;
-                                    position: absolute;
-                                    margin-top: 25px;
-                                    margin-right: 33%;
+                                    width: 230px;
+                                    margin-top: 29px;
+                                    margin-right: 130px;
+                                    padding: 6px;
                                 }
                                 #btn {
-                                    margin-left: 30px;
-                                    position: absolute;
-                                    margin-right: 5%;
-                                    top: 6;
-                                    height: 6vh;
+                                    margin-top: 86px;
+                                    margin-left: 150px;
                                 }
                                 #a2:hover #div {
                                     display: block;
@@ -815,9 +819,15 @@
                                     box-shadow: none;
                                     display: flex;
                                     margin-top: 50px;
-                                    position: absolute;
                                     left: 0;
                                     margin-left: 1px;
+                                    width: 430px;
+                                }
+                                #d6>button {
+                                    font-size: 12px;
+                                    width: 150px;
+                                    height: 30px;
+                                    margin-left: 2px;
                                 }
                                 #ar1,
                                 #ar2,
@@ -846,33 +856,38 @@
                                     display: none;
                                 }
                                 #s5 {
-                                    height: 70%;
+                                    height: 80%;
                                     display: flex;
                                     justify-content: space-between;
+                                    margin-top: 180px;
+                                    width: 450px;
                                 }
                                 #d1 {
                                     position: fixed;
                                     background-color: black;
                                     width: 100%;
-                                    height: 10%;
+                                    height: 8%;
                                     top: 0;
                                 }
+                                #fa {
+                                    margin-top: 15px;
+                                }
                                 #s5>div>p {
-                                    font-size: 12px;
+                                    font-size: 15px;
                                     margin-left: 10px;
                                 }
+                                #d6 {
+                                    position: absolute;
+                                }
                                 #rp>a {
-                                    padding: 6px;
+                                    padding: 13px;
                                     font-size: 13px;
                                     width: 20px;
                                 }
                                 #rp {
                                     display: grid;
-                                    grid-template-columns: 10px 10px 10px;
-                                    grid-column-gap: 30px;
-                                }
-                                .ppp {
-                                    position: absolute;
+                                    grid-template-columns: 2px 2px 2px;
+                                    grid-column-gap: 50px;
                                 }
                                 .fa-google {
                                     display: none;
@@ -880,7 +895,13 @@
                                 #s6 {
                                     display: grid;
                                     grid-template-columns: 150px 150px;
-                                    height: 60%;
+                                    height: 70%;
+                                    width: 450px;
+                                }
+                                #btn19 {
+                                    height: 40px;
+                                    width: 150px;
+                                    font-size: 15px;
                                 }
                                 .bars {
                                     display: grid;
@@ -946,25 +967,26 @@
                                     margin-top: 2px;
                                 }
                                 #d3 {
-                                    width: 83%;
+                                    width: 100%;
                                     margin-top: 130px;
                                 }
                                 input[type=text] {
                                     width: 42%;
-                                    margin-left: 13px;
-                                    margin-top: 9px;
+                                    margin-left: 12px;
+                                    margin-top: 10px;
+                                    border: 2px solid black;
                                 }
                                 #option {
                                     width: 42%;
-                                    margin-left: 15px;
+                                    margin-left: 12px;
+                                    border: 2px solid black;
                                 }
                                 #p0 {
-                                    position: static;
-                                    margin-left: 84px;
+                                    margin-left: 144px;
                                 }
                                 #p1 {
-                                    font-size: 14px;
-                                    margin-left: 45px;
+                                    font-size: 17px;
+                                    margin-left: 55px;
                                     margin-right: 30px;
                                     margin-top: 20px;
                                     width: 200px;
@@ -982,7 +1004,7 @@
                                     margin-top: 4px;
                                 }
                                 #d4 {
-                                    margin-top: 1px;
+                                    margin-top: 30px;
                                 }
                                 #p8 {
                                     font-size: 14px;
@@ -1032,15 +1054,80 @@
                                     display: none;
                                 }
                                 #m1 {
-                                    font-size: 13px;
-                                    margin-left: 10px;
+                                    font-size: 14px;
+                                    margin-left: 20px;
                                 }
                                 #btn3 {
-                                    padding: 4px;
-                                    width: 70px;
+                                    padding: 5px;
+                                    width: 90px;
                                 }
                                 #d3 {
                                     height: 74%;
-                                    width: 80%;
+                                    width: 450px;
+                                }
+                                #s1 {
+                                    width: 450px;
+                                }
+                                #select {
+                                    width: 330px;
+                                    padding: 10px;
+                                    border-radius: 10px;
+                                    background-color: white;
+                                }
+                                #figcaption>button {
+                                    width: 60px;
+                                    padding: 10px;
+                                    font-size: 20px;
+                                }
+                                #ar1>figure {
+                                    width: 340px;
+                                    height: 290px;
+                                }
+                                #ar1>figure>img {
+                                    width: 340px;
+                                    height: 240px;
+                                }
+                                #ar2>figure {
+                                    width: 340px;
+                                    height: 290px;
+                                }
+                                #ar2>figure>img {
+                                    width: 340px;
+                                    height: 240px;
+                                }
+                                #ar3>figure {
+                                    width: 340px;
+                                    height: 290px;
+                                }
+                                #ar3>figure>img {
+                                    width: 340px;
+                                    height: 240px;
+                                }
+                                #ar4>figure {
+                                    width: 340px;
+                                    height: 290px;
+                                }
+                                #ar4>figure>img {
+                                    width: 340px;
+                                    height: 240px;
+                                }
+                                #ar5>figure {
+                                    width: 340px;
+                                    height: 290px;
+                                }
+                                #ar5>figure>img {
+                                    width: 340px;
+                                    height: 240px;
+                                }
+                                #s4 {
+                                    height: 350px;
+                                }
+                                #figcaption1 {
+                                    margin-left: 60px;
+                                }
+                                #figcaption1>button {
+                                    width: 60px;
+                                    padding: 10px;
+                                    font-size: 20px;
                                 }
                             }
